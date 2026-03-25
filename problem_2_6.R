@@ -150,12 +150,12 @@ par(mfrow = c(1, 2), mar = c(5, 5, 4, 2))
 
 # --- 그래프 1: 사망 확률 비교 막대그래프 ---
 probs <- c(p_smoker, p_nonsmoker)
-names(probs) <- c("흡연자", "비흡연자")
+names(probs) <- c("Smoker", "Nonsmoker")
 
 barplot(probs,
         col    = c("firebrick", "steelblue"),
-        main   = "폐암 연간 사망 확률 비교",
-        ylab   = "사망 확률",
+        main   = "Annual Lung Cancer Mortality Probability",
+        ylab   = "Probability of Death",
         ylim   = c(0, max(probs) * 1.3),
         las    = 1)
 
@@ -166,19 +166,19 @@ text(x      = c(0.7, 1.9),
      cex    = 0.9)
 
 # 비율 차이와 RR 정보 추가
-mtext(sprintf("비율 차이 = %.6f\nRR = %.2f배",
+mtext(sprintf("Diff = %.6f  |  RR = %.2f",
               diff_proportions, relative_risk),
       side = 1, line = 4, cex = 0.85)
 
 
 # --- 그래프 2: RR과 OR 비교 막대그래프 ---
 measures <- c(relative_risk, odds_ratio)
-names(measures) <- c("상대위험도\n(RR)", "오즈비\n(OR)")
+names(measures) <- c("Relative Risk\n(RR)", "Odds Ratio\n(OR)")
 
 barplot(measures,
         col    = c("darkorange", "darkgreen"),
-        main   = "상대위험도 vs 오즈비",
-        ylab   = "값",
+        main   = "Relative Risk vs Odds Ratio",
+        ylab   = "Value",
         ylim   = c(0, max(measures) * 1.3),
         las    = 1)
 
@@ -187,7 +187,7 @@ text(x      = c(0.7, 1.9),
      labels = sprintf("%.4f", measures),
      cex    = 0.9)
 
-mtext("두 값이 매우 유사함 (희귀 사건 근사)",
+mtext("Values are nearly identical (rare disease approximation)",
       side = 1, line = 4, cex = 0.85)
 
 par(mfrow = c(1, 1))  # 그래프 레이아웃 초기화

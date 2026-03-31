@@ -196,7 +196,7 @@ barplot(prop_tbl,
 text(x      = c(0.7, 1.9),
      y      = c(prop_tbl[1, 1] / 2, prop_tbl[1, 2] / 2),
      labels = sprintf("%.1f%%", prop_tbl[1, ] * 100),
-     col    = "white", fontface = "bold", cex = 1.0)
+     col    = "white", font = 2, cex = 1.0)
 
 
 # --- 그래프 2: 오즈비 시각화 (기준선 OR=1 포함) ---

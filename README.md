@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Pretendard&weight=700&size=30&duration=2800&pause=900&color=A855F7&center=true&vCenter=true&width=720&lines=AI%EB%A5%BC+%EB%A7%A4%EC%9D%BC+300%EC%8B%9C%EA%B0%84+%EC%8D%A8%EB%B3%B4%EB%8A%94+%EC%82%AC%EB%9E%8C;%EC%B4%88%EB%B3%B4%EB%8F%84+%EB%B0%94%EB%A1%9C+%EB%94%B0%EB%9D%BC+%ED%95%98%EB%8A%94+AI+%EC%8B%A4%EC%A0%84+%ED%99%9C%EC%9A%A9%EB%B2%95" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Sans+KR&weight=700&size=30&duration=2800&pause=900&color=A855F7&center=true&vCenter=true&width=720&lines=AI%EB%A5%BC+%EB%A7%A4%EC%9D%BC+300%EC%8B%9C%EA%B0%84+%EC%8D%A8%EB%B3%B4%EB%8A%94+%EC%82%AC%EB%9E%8C;%EC%B4%88%EB%B3%B4%EB%8F%84+%EB%B0%94%EB%A1%9C+%EB%94%B0%EB%9D%BC+%ED%95%98%EB%8A%94+AI+%EC%8B%A4%EC%A0%84+%ED%99%9C%EC%9A%A9%EB%B2%95" alt="typing" />
 
 # 💜 ADU (Blaire)
 
